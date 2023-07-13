@@ -189,7 +189,7 @@ ul.deepdropdown_1{
 	visibility: hidden;
 	opacity: 0;
 	transition: all 0.3s ease;
-	transform:translateX(-30px);
+	transform:translateX(30px);
 }
 .deepdropdown:hover  ul.deepdropdown_1{
 	visibility: visible;
@@ -1112,25 +1112,30 @@ ul.deepdropdown_1{
 	height:3px;
 	width:46px;
 }
+.bar_cnt1{
+	cursor:pointer;
+}
 .bar_cnt1 p{
 	font-size: 18px;
 	font-weight: 400;
 	font-family: "Open Sans", sans-serif;
 	color:#343a40;
 	border-bottom: 1px solid #eee;
-	cursor:pointer;
 	margin-bottom: -52px;
     padding-bottom: 20px;
     margin-top: 40px;
 }
-.bar_cnt1 p:hover{
+
+.listbar .bar_cnt1:hover p {
 	color:#e03a3c;
+
 }
-.bar_cnt1:hover{
+.listbar .bar_cnt1:hover i{
 	color:#e03a3c;
+	
 }
 .bar_cnt1 i{
-	top: -66px;
+	top: 10px;
     font-size: 24px;
     position: relative;
     left: 70rem;
