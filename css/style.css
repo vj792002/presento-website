@@ -189,7 +189,7 @@ ul.deepdropdown_1{
 	visibility: hidden;
 	opacity: 0;
 	transition: all 0.3s ease;
-	transform:translateX(30px);
+	transform:translateX(  	30px);
 }
 .deepdropdown:hover  ul.deepdropdown_1{
 	visibility: visible;
@@ -225,7 +225,6 @@ ul.deepdropdown_1{
 	background-size:cover;
 	background-repeat: no-repeat;
 	padding:80px 0;
-	height: 89vh;
     background-position: 0 -78px;
 	position:relative;
 }
@@ -300,7 +299,6 @@ ul.deepdropdown_1{
 	padding:30px 0;
 	transform:skewY(-183deg);
 	margin-top: 128px;
-	height: 65vh;
 }
 .para_cnt{
 	height:300px;
@@ -1148,7 +1146,6 @@ ul.deepdropdown_1{
 	padding:30px 0;
 	transform:skewY(-183deg);
 	margin-top:100px;
-	height: 105vh;
 }
 .cards{
 	display:flex;
